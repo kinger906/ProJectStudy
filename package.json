@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/kinger906/ProJectStudy#readme",
   "devDependencies": {
-    "webpack": "^3.10.0"
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.10.1"
   }
 }
