@@ -67,7 +67,7 @@
 /* 0 */
 /***/ (function(module, exports) {
 
-console.log('555557999997775111');
+console.log('我是模板');
 
 /***/ })
 /******/ ]);
