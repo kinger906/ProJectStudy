@@ -1,0 +1,22 @@
+{
+  "name": "study",
+  "version": "1.0.0",
+  "description": "study",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kinger906/ProJectStudy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kinger906/ProJectStudy/issues"
+  },
+  "homepage": "https://github.com/kinger906/ProJectStudy#readme",
+  "devDependencies": {
+    "webpack": "^3.10.0"
+  }
+}
