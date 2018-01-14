@@ -1,6 +1,17 @@
 module.exports = {
-    entry:'./site/js/js-eg1/template.js',
+    entry:{
+        'build-eg1':'./site/js/js-eg1/template.js',
+        'build-eg2':'./site/js/js-eg2/app.js'
+    },
     output:{
-        filename:'./site/build/build-eg1.js'
+        filename:'./site/build/[name].js'
+    },
+    module:{
+        loaders:[
+            {
+                test: /\.css$/,
+                use: ['style-loader', 'css-loader']
+            }
+        ]
     }
 }
